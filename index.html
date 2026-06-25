@@ -4,16 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FreePeng Token</title>
-  <meta name="description" content="FreePeng - More Than a Meme. Built by the Community." />
   <link rel="icon" href="images/favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <canvas id="snow"></canvas>
+  <div class="stars"></div>
+  <div class="aurora"></div>
 
   <header class="navbar">
     <a class="brand" href="#home">
-      <img src="images/logo-horizontal.png" alt="FreePeng logo" />
+      <img src="images/logo-horizontal.png" alt="FreePeng Logo" />
     </a>
     <nav>
       <a href="#status">Status</a>
@@ -25,75 +25,85 @@
   </header>
 
   <main id="home" class="hero">
-    <div class="aurora"></div>
-    <section class="hero-copy reveal">
-      <span class="pill">BNB Smart Chain • 0% Tax • Community First</span>
-      <h1>Freedom to <span>Waddle.</span><br />Freedom to <span>Build.</span></h1>
-      <p class="lead">FreePeng is an original penguin-themed meme token project. We build in public, test before launch, and keep the community first.</p>
-      <div class="actions">
+    <section class="hero-copy">
+      <span class="badge">BNB Smart Chain • 0% Tax • Community First</span>
+      <h1>Freedom to Waddle.<br><span>Freedom to Build.</span></h1>
+      <p>
+        FreePeng is an original penguin-themed meme token project. We build in public,
+        test before launch, and keep the community first.
+      </p>
+      <div class="hero-actions">
         <a class="btn primary" href="#whitepaper">Read Whitepaper</a>
         <a class="btn secondary" href="#status">View Progress</a>
       </div>
-      <div class="mini-note">Contract address will be published after testnet verification.</div>
+      <small>Contract address will be published after testnet verification.</small>
     </section>
 
-    <section class="mascot-wrap reveal">
-      <div class="glow-card">
-        <img class="mascot" src="images/hero-mascot.png" alt="FreePeng mascot" />
-      </div>
+    <section class="hero-art">
+      <img src="images/hero-mascot.png" alt="FreePeng Mascot" />
     </section>
   </main>
 
-  <section id="status" class="status reveal">
-    <div class="section-head">
-      <span>LIVE BUILD</span>
-      <h2>Project Status</h2>
-    </div>
+  <section id="status" class="section status-section">
+    <p class="eyebrow">LIVE BUILD</p>
+    <h2>Project Status</h2>
     <div class="progress-card">
-      <div class="progress-top"><b>Launch Preparation</b><span>50%</span></div>
-      <div class="progress"><div style="width:50%"></div></div>
-      <div class="checklist">
-        <span class="done">Website</span><span class="done">GitHub</span><span class="done">Branding</span><span>Contract</span><span>Testnet</span><span>Mainnet</span>
+      <div class="progress-head">
+        <b>Launch Preparation</b>
+        <span>50%</span>
+      </div>
+      <div class="progress-bar"><div></div></div>
+      <div class="status-grid">
+        <div class="done">✓ Website</div>
+        <div class="done">✓ GitHub</div>
+        <div class="done">✓ Branding</div>
+        <div class="pending">⏳ Contract</div>
+        <div class="pending">⏳ Testnet</div>
+        <div class="locked">🔒 Mainnet</div>
       </div>
     </div>
   </section>
 
-  <section class="stats reveal">
-    <div><b>1B</b><span>Total Supply</span></div>
-    <div><b>0%</b><span>Buy / Sell Tax</span></div>
-    <div><b>BNB</b><span>Smart Chain</span></div>
-    <div><b>FPG</b><span>Token Symbol</span></div>
+  <section class="stats">
+    <article><b>1B</b><span>Total Supply</span></article>
+    <article><b>0%</b><span>Buy / Sell Tax</span></article>
+    <article><b>BNB</b><span>Smart Chain</span></article>
+    <article><b>FPG</b><span>Token Symbol</span></article>
   </section>
 
-  <section id="tokenomics" class="section reveal">
-    <div class="section-head"><span>FPG ECONOMY</span><h2>Tokenomics</h2></div>
-    <div class="cards">
-      <article><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
-      <article><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
-      <article><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
-      <article><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
+  <section id="tokenomics" class="section">
+    <p class="eyebrow">FPG ECONOMY</p>
+    <h2>Tokenomics</h2>
+    <div class="cards four">
+      <article><span class="icon">🪙</span><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
+      <article><span class="icon">🌐</span><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
+      <article><span class="icon">⚡</span><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
+      <article><span class="icon">🛡️</span><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
     </div>
   </section>
 
-  <section id="roadmap" class="section reveal">
-    <div class="section-head"><span>BUILD PLAN</span><h2>Roadmap</h2></div>
+  <section id="roadmap" class="section">
+    <p class="eyebrow">BUILD PLAN</p>
+    <h2>Roadmap</h2>
     <div class="roadmap">
-      <div class="phase active"><b>Phase 1</b><h3>Brand Foundation</h3><p>Website, GitHub, logo, mascot, and project identity.</p></div>
-      <div class="phase"><b>Phase 2</b><h3>Smart Contract</h3><p>OpenZeppelin ERC-20 contract, testnet deployment, and transfer tests.</p></div>
-      <div class="phase"><b>Phase 3</b><h3>Mainnet Launch</h3><p>BNB Smart Chain mainnet deployment, verification, and PancakeSwap liquidity.</p></div>
-      <div class="phase"><b>Phase 4</b><h3>Community Growth</h3><p>Social channels, community campaigns, listings preparation, and future utilities.</p></div>
+      <article class="active"><span>1</span><h3>Brand Foundation</h3><p>Website, GitHub, logo, mascot, and project identity.</p></article>
+      <article><span>2</span><h3>Smart Contract</h3><p>OpenZeppelin ERC-20 contract, testnet deployment, and transfer tests.</p></article>
+      <article><span>3</span><h3>Mainnet Launch</h3><p>BNB Smart Chain mainnet deployment, verification, and PancakeSwap liquidity.</p></article>
+      <article><span>4</span><h3>Community Growth</h3><p>Social channels, community campaigns, listing preparation, and future utilities.</p></article>
     </div>
   </section>
 
-  <section id="whitepaper" class="section whitepaper reveal">
-    <div class="section-head"><span>DOCUMENTS</span><h2>Whitepaper</h2></div>
+  <section id="whitepaper" class="section whitepaper">
+    <p class="eyebrow">DOCUMENTS</p>
+    <h2>Whitepaper</h2>
     <p>The first FreePeng whitepaper explains the story, tokenomics, roadmap, risk notice, and community-first principles.</p>
     <a class="btn primary" href="whitepaper/whitepaper.pdf">Open Whitepaper</a>
   </section>
 
-  <section id="faq" class="section reveal">
-    <div class="section-head"><span>QUESTIONS</span><h2>FAQ</h2></div>
-    <div class="cards">
+  <section id="faq" class="section">
+    <p class="eyebrow">QUESTIONS</p>
+    <h2>FAQ</h2>
+    <div class="cards three">
       <article><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes before mainnet.</p></article>
       <article><h3>Is this financial advice?</h3><p>No. FreePeng is a community project and not financial advice.</p></article>
       <article><h3>Is the mascot original?</h3><p>Yes. FreePeng is an independent fictional penguin character.</p></article>
@@ -103,7 +113,11 @@
   <footer>
     <img src="images/logo-horizontal.png" alt="FreePeng" />
     <p>More Than a Meme. Built by the Community.</p>
-    <small>© 2026 FreePeng. Build in public. Test first. Launch transparently.</small>
+    <div class="footer-links">
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#whitepaper">Whitepaper</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
