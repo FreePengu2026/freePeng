@@ -1,14 +1,46 @@
-# FreePeng Token
+# 🐧 FreePeng
 
-FreePeng is an original penguin-themed meme token project template.
+> **More Than a Meme. Built by the Community.**
 
-## Files
-- `index.html` - website home page
-- `style.css` - website styles
-- `script.js` - snow animation
-- `images/logo.svg` - FreePeng logo
-- `whitepaper/freepeng-whitepaper.pdf` - whitepaper draft
-- `contract/FreePeng.sol` - BEP-20/ERC-20 token contract template
+FreePeng is a community-driven meme token project built on BNB Smart Chain.
 
-## Important
-This is not financial advice. Test everything on BSC Testnet before mainnet. Do not add buy links until the verified mainnet contract and liquidity are ready.
+---
+
+## 🌐 Official Website
+
+https://freepengu2026.github.io/freePeng/
+
+---
+
+## 🚧 Development Status
+
+- ✅ Website
+- ✅ GitHub Repository
+- 🟡 Brand Identity
+- ⏳ Whitepaper
+- ⏳ Smart Contract
+- ⏳ Testnet
+- 🔒 Mainnet
+
+---
+
+## 🪙 Token Information
+
+| Item | Value |
+|------|------|
+| Name | FreePeng |
+| Symbol | FPG |
+| Network | BNB Smart Chain |
+| Supply | 1,000,000,000 |
+
+---
+
+## 🐧 Story
+
+A small penguin who broke his chains and chose freedom.
+
+FreePeng represents community, creativity and the freedom to build together.
+
+---
+
+© 2026 FreePeng
