@@ -1,114 +1,97 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FreePeng Token</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #07111f;
-      color: white;
-      text-align: center;
-    }
-
-    header {
-      padding: 25px;
-      background: #0b1b30;
-    }
-
-    h1 {
-      font-size: 55px;
-      color: #38bdf8;
-    }
-
-    .hero {
-      padding: 80px 20px;
-    }
-
-    .penguin {
-      font-size: 100px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 30px;
-      background: #38bdf8;
-      color: #07111f;
-      text-decoration: none;
-      border-radius: 12px;
-      font-weight: bold;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-
-    .card {
-      background: #10233d;
-      padding: 25px;
-      border-radius: 15px;
-    }
-
-    footer {
-      padding: 30px;
-      background: #0b1b30;
-      margin-top: 40px;
-    }
-  </style>
+  <meta name="description" content="FreePeng is a community-driven penguin meme token concept built for fun, transparency, and learning." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <canvas id="snow"></canvas>
+  <header class="nav">
+    <a class="brand" href="#home"><img src="images/logo.svg" alt="FreePeng logo"/> <span>FREEPENG</span></a>
+    <nav>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#whitepaper">Whitepaper</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
 
-<header>
-  <h2>🐧 FREEPENG</h2>
-</header>
+  <main id="home" class="hero">
+    <section class="heroText">
+      <div class="pill">BNB Smart Chain • 0% Tax • Community First</div>
+      <h1>Freedom to Waddle.<br/>Freedom to Build.</h1>
+      <p>FreePeng is an original penguin-themed meme token project. First we build, test, and publish transparently - then we move to mainnet.</p>
+      <div class="actions">
+        <a class="button primary" href="#whitepaper">Read Whitepaper</a>
+        <a class="button ghost" href="#tokenomics">Explore Tokenomics</a>
+      </div>
+      <p class="small">Token contract: coming after testnet verification.</p>
+    </section>
 
-<section class="hero">
-  <div class="penguin">🐧</div>
-  <h1>FreePeng Token</h1>
-  <p>Freedom to Waddle. Freedom to Build.</p>
-  <p>BNB Smart Chain üzerinde topluluk odaklı meme token.</p>
-  <a class="btn" href="#">Buy FPG - Coming Soon</a>
-</section>
+    <section class="mascotCard">
+      <img class="mascot" src="images/logo.svg" alt="FreePeng mascot" />
+      <div class="glow"></div>
+    </section>
+  </main>
 
-<section>
-  <h2>Tokenomics</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Total Supply</h3>
-      <p>1,000,000,000 FPG</p>
+  <section class="stats" id="tokenomics">
+    <h2>Tokenomics</h2>
+    <p class="sectionLead">Simple, clear, and easy to understand.</p>
+    <div class="grid">
+      <article class="card"><strong>1,000,000,000</strong><span>Total Supply</span></article>
+      <article class="card"><strong>FPG</strong><span>Token Symbol</span></article>
+      <article class="card"><strong>BNB Chain</strong><span>Target Network</span></article>
+      <article class="card"><strong>0%</strong><span>Planned Tax</span></article>
     </div>
-    <div class="card">
-      <h3>Network</h3>
-      <p>BNB Smart Chain</p>
+    <div class="split">
+      <div class="glass">
+        <h3>Distribution Plan</h3>
+        <p>70% community, 15% liquidity, 10% marketing, 5% team allocation. Team allocation should be publicly disclosed and ideally locked.</p>
+      </div>
+      <div class="glass chart" aria-label="Token distribution visual">
+        <div class="donut"></div>
+        <ul>
+          <li>70% Community</li><li>15% Liquidity</li><li>10% Marketing</li><li>5% Team</li>
+        </ul>
+      </div>
     </div>
-    <div class="card">
-      <h3>Tax</h3>
-      <p>0%</p>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <h2>Roadmap</h2>
+    <div class="timeline">
+      <div><b>Phase 1</b><span>Website, logo, whitepaper, project structure.</span></div>
+      <div><b>Phase 2</b><span>BEP-20 contract, local checks, BSC testnet deploy.</span></div>
+      <div><b>Phase 3</b><span>Community channels, audit checklist, liquidity plan.</span></div>
+      <div><b>Phase 4</b><span>Mainnet deploy and DEX launch only after testing.</span></div>
     </div>
-    <div class="card">
-      <h3>Liquidity</h3>
-      <p>Coming Soon</p>
+  </section>
+
+  <section class="whitepaper" id="whitepaper">
+    <div class="glass center">
+      <h2>Whitepaper</h2>
+      <p>The first whitepaper draft is included in this project folder.</p>
+      <a class="button primary" href="whitepaper/freepeng-whitepaper.pdf">Open Whitepaper</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <h2>Roadmap</h2>
-  <p>Phase 1: Website</p>
-  <p>Phase 2: Token Contract</p>
-  <p>Phase 3: Testnet</p>
-  <p>Phase 4: Mainnet</p>
-</section>
+  <section class="faq" id="faq">
+    <h2>FAQ</h2>
+    <div class="grid two">
+      <article class="card"><h3>Is FreePeng live?</h3><p>Not yet. The correct order is website, contract, testnet, then mainnet.</p></article>
+      <article class="card"><h3>Is this financial advice?</h3><p>No. This is a learning and project-building template. Crypto is risky.</p></article>
+      <article class="card"><h3>Is it copied from another project?</h3><p>No. FreePeng is intended to be an original penguin-themed brand.</p></article>
+      <article class="card"><h3>Where can I buy?</h3><p>Buy links should only be added after the verified mainnet contract and liquidity are ready.</p></article>
+    </div>
+  </section>
 
-<footer>
-  © 2026 FreePeng Token
-</footer>
-
+  <footer>
+    <span>© 2026 FreePeng Token</span>
+    <span>Built for transparency, fun, and community.</span>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
