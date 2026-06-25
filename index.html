@@ -9,9 +9,11 @@
 </head>
 <body>
 
+<div class="snow"></div>
+
 <header class="navbar">
   <a class="brand" href="#">
-    <img src="images/logo-horizontal.png" alt="FreePeng Logo">
+    <img src="images/logo-horizontal.png" alt="FreePeng">
   </a>
 
   <nav>
@@ -22,81 +24,90 @@
   </nav>
 </header>
 
-<section class="hero">
-  <div class="hero-text">
-    <span class="badge">BNB Smart Chain • 0% Tax • Community First</span>
-    <h1>Freedom to Waddle.<br>Freedom to Build.</h1>
+<main class="hero">
+  <section class="hero-left">
+    <span class="pill">BNB Smart Chain • 0% Tax • Community First</span>
+
+    <h1>
+      Freedom to <span>Waddle.</span><br>
+      Freedom to <span>Build.</span>
+    </h1>
+
     <p>
       FreePeng is an original penguin-themed meme token project.
-      First we build, test, and publish transparently — then we move to mainnet.
+      We build, test, and publish transparently before moving to mainnet.
     </p>
 
     <div class="buttons">
-      <a class="btn primary" href="#whitepaper">Read Whitepaper</a>
-      <a class="btn secondary" href="#tokenomics">Explore Tokenomics</a>
+      <a href="#whitepaper" class="btn primary">Read Whitepaper</a>
+      <a href="#tokenomics" class="btn ghost">Explore Tokenomics</a>
     </div>
 
-    <small>Token contract: coming after testnet verification.</small>
-  </div>
+    <div class="progress-box">
+      <div class="progress-head">
+        <b>Project Progress</b>
+        <span>50%</span>
+      </div>
+      <div class="progress-bar">
+        <div></div>
+      </div>
+      <small>Website ✅ • Branding ✅ • Contract ⏳ • Testnet ⏳ • Mainnet 🔒</small>
+    </div>
+  </section>
 
-  <div class="hero-image">
+  <section class="hero-right">
     <img src="images/hero-mascot.png" alt="FreePeng Mascot">
-  </div>
-</section>
+  </section>
+</main>
 
-<section class="status">
-  <h2>Project Status</h2>
-  <div class="status-grid">
-    <div>✅ Website</div>
-    <div>✅ GitHub</div>
-    <div>✅ Branding</div>
-    <div>⏳ Smart Contract</div>
-    <div>⏳ Testnet</div>
-    <div>🔒 Mainnet</div>
-  </div>
+<section class="stats">
+  <div><b>1,000,000,000</b><span>Total Supply</span></div>
+  <div><b>0%</b><span>Buy / Sell Tax</span></div>
+  <div><b>BNB Chain</b><span>Network</span></div>
+  <div><b>Community</b><span>Driven</span></div>
 </section>
 
 <section id="tokenomics" class="section">
   <h2>Tokenomics</h2>
   <div class="cards">
-    <div class="card"><h3>Total Supply</h3><p>1,000,000,000 FPG</p></div>
-    <div class="card"><h3>Network</h3><p>BNB Smart Chain</p></div>
-    <div class="card"><h3>Tax</h3><p>0% Buy / Sell</p></div>
-    <div class="card"><h3>Liquidity</h3><p>Planned after testnet</p></div>
+    <article><h3>Total Supply</h3><p>1,000,000,000 FPG</p></article>
+    <article><h3>Liquidity</h3><p>Planned after testnet verification.</p></article>
+    <article><h3>Tax</h3><p>0% buy and 0% sell tax.</p></article>
+    <article><h3>Security</h3><p>Contract will be verified before mainnet.</p></article>
   </div>
 </section>
 
 <section id="roadmap" class="section">
   <h2>Roadmap</h2>
-  <div class="timeline">
-    <div><b>Phase 1</b><br>Brand, website, GitHub</div>
-    <div><b>Phase 2</b><br>Smart contract, testnet</div>
-    <div><b>Phase 3</b><br>Mainnet, PancakeSwap</div>
-    <div><b>Phase 4</b><br>Community growth, listings</div>
+  <div class="roadmap">
+    <div><b>Phase 1</b><p>Website, GitHub, branding.</p></div>
+    <div><b>Phase 2</b><p>Smart contract and testnet deployment.</p></div>
+    <div><b>Phase 3</b><p>Mainnet launch and PancakeSwap liquidity.</p></div>
+    <div><b>Phase 4</b><p>Community growth and listing preparation.</p></div>
   </div>
 </section>
 
-<section id="whitepaper" class="section">
+<section id="whitepaper" class="section whitepaper">
   <h2>Whitepaper</h2>
   <p>
-    FreePeng whitepaper will describe the project story, tokenomics,
-    roadmap, risk notices, and community-first principles.
+    The FreePeng whitepaper explains the story, roadmap, tokenomics,
+    risk notes, and community-first principles.
   </p>
-  <a class="btn primary" href="whitepaper/whitepaper.pdf">Open Whitepaper</a>
+  <a href="whitepaper/whitepaper.pdf" class="btn primary">Open Whitepaper</a>
 </section>
 
 <section id="faq" class="section">
   <h2>FAQ</h2>
   <div class="cards">
-    <div class="card"><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes first.</p></div>
-    <div class="card"><h3>Is this financial advice?</h3><p>No. This is a community project.</p></div>
-    <div class="card"><h3>Is FreePeng original?</h3><p>Yes. It is an independent fictional mascot.</p></div>
+    <article><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes first.</p></article>
+    <article><h3>Is this financial advice?</h3><p>No. FreePeng is a community project.</p></article>
+    <article><h3>Is the mascot original?</h3><p>Yes. FreePeng is an independent fictional character.</p></article>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 FreePeng — More Than a Meme.</p>
-  <p>GitHub • Whitepaper • Community</p>
+  <b>FREEPENG</b>
+  <p>More Than a Meme. Built by the Community.</p>
 </footer>
 
 <script src="script.js"></script>
