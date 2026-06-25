@@ -1,83 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FreePeng Token</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px;
+      background: #0b1b30;
+    }
+
+    h1 {
+      font-size: 55px;
+      color: #38bdf8;
+    }
+
+    .hero {
+      padding: 80px 20px;
+    }
+
+    .penguin {
+      font-size: 100px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      background: #38bdf8;
+      color: #07111f;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #10233d;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    footer {
+      padding: 30px;
+      background: #0b1b30;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
-<header class="navbar">
-  <div class="logo">🐧 FreePeng</div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#tokenomics">Tokenomics</a>
-    <a href="#roadmap">Roadmap</a>
-    <a href="#faq">FAQ</a>
-  </nav>
+<header>
+  <h2>🐧 FREEPENG</h2>
 </header>
 
 <section class="hero">
-  <div class="snow"></div>
-  <div class="hero-content">
-    <div class="mascot">🐧</div>
-    <h1>FreePeng Token</h1>
-    <p class="tagline">More Than a Meme. Built by the Community.</p>
-    <p class="desc">
-      FreePeng is a community-driven meme token inspired by freedom,
-      unity and the courage to break the chains.
-    </p>
-    <div class="buttons">
-      <a href="#" class="btn primary">Buy Coming Soon</a>
-      <a href="#about" class="btn secondary">Explore</a>
+  <div class="penguin">🐧</div>
+  <h1>FreePeng Token</h1>
+  <p>Freedom to Waddle. Freedom to Build.</p>
+  <p>BNB Smart Chain üzerinde topluluk odaklı meme token.</p>
+  <a class="btn" href="#">Buy FPG - Coming Soon</a>
+</section>
+
+<section>
+  <h2>Tokenomics</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Total Supply</h3>
+      <p>1,000,000,000 FPG</p>
+    </div>
+    <div class="card">
+      <h3>Network</h3>
+      <p>BNB Smart Chain</p>
+    </div>
+    <div class="card">
+      <h3>Tax</h3>
+      <p>0%</p>
+    </div>
+    <div class="card">
+      <h3>Liquidity</h3>
+      <p>Coming Soon</p>
     </div>
   </div>
 </section>
 
-<section id="about" class="section">
-  <h2>The Story</h2>
-  <p>
-    FreePeng was born in the frozen lands, trapped by chains but never by fear.
-    One day, the little penguin broke free and carried the blue ice crystal as
-    a symbol of community, courage and freedom.
-  </p>
-</section>
-
-<section id="tokenomics" class="section">
-  <h2>Tokenomics</h2>
-  <div class="cards">
-    <div class="card"><h3>Total Supply</h3><p>1,000,000,000 FPG</p></div>
-    <div class="card"><h3>Network</h3><p>BNB Smart Chain</p></div>
-    <div class="card"><h3>Tax</h3><p>0%</p></div>
-    <div class="card"><h3>Liquidity</h3><p>Coming Soon</p></div>
-  </div>
-</section>
-
-<section id="roadmap" class="section">
+<section>
   <h2>Roadmap</h2>
-  <div class="timeline">
-    <div>✅ Website Launch</div>
-    <div>🎨 Brand Kit & Mascot</div>
-    <div>🪙 Smart Contract</div>
-    <div>🧪 Testnet Deployment</div>
-    <div>🚀 Mainnet Launch</div>
-  </div>
-</section>
-
-<section id="faq" class="section">
-  <h2>FAQ</h2>
-  <div class="cards">
-    <div class="card"><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes first.</p></div>
-    <div class="card"><h3>Is this financial advice?</h3><p>No. FreePeng is a community project.</p></div>
-    <div class="card"><h3>Is it original?</h3><p>Yes. FreePeng is an independent fictional mascot.</p></div>
-  </div>
+  <p>Phase 1: Website</p>
+  <p>Phase 2: Token Contract</p>
+  <p>Phase 3: Testnet</p>
+  <p>Phase 4: Mainnet</p>
 </section>
 
 <footer>
-  © 2026 FreePeng Token — Freedom to Waddle. Freedom to Build.
+  © 2026 FreePeng Token
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
