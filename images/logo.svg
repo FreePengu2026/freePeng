@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="512" height="512" rx="120" fill="url(#g)"/>
+<circle cx="256" cy="252" r="154" fill="#081827" stroke="#65DFFF" stroke-width="12"/>
+<ellipse cx="256" cy="282" rx="86" ry="110" fill="#F7FCFF"/>
+<ellipse cx="202" cy="224" rx="23" ry="31" fill="#F7FCFF"/><ellipse cx="310" cy="224" rx="23" ry="31" fill="#F7FCFF"/>
+<circle cx="202" cy="229" r="9" fill="#07111F"/><circle cx="310" cy="229" r="9" fill="#07111F"/>
+<path d="M230 257C245 270 267 270 282 257" stroke="#07111F" stroke-width="10" stroke-linecap="round"/>
+<path d="M256 240L223 274H289L256 240Z" fill="#FFB547"/>
+<path d="M138 310C105 289 94 251 111 220" stroke="#65DFFF" stroke-width="18" stroke-linecap="round"/>
+<path d="M374 310C407 289 418 251 401 220" stroke="#65DFFF" stroke-width="18" stroke-linecap="round"/>
+<path d="M190 393C214 411 298 411 322 393" stroke="#FFB547" stroke-width="18" stroke-linecap="round"/>
+<path d="M178 151C213 116 300 116 335 151" stroke="#65DFFF" stroke-width="14" stroke-linecap="round"/>
+<path d="M176 365L145 396M367 365L398 396" stroke="#65DFFF" stroke-width="12" stroke-linecap="round"/>
+<defs><linearGradient id="g" x1="54" y1="42" x2="461" y2="472" gradientUnits="userSpaceOnUse"><stop stop-color="#0B5D88"/><stop offset=".55" stop-color="#061B32"/><stop offset="1" stop-color="#020812"/></linearGradient></defs>
+</svg>
