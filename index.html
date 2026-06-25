@@ -1,50 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FreePeng Token</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreePeng Token</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#03111f,#0b2447);color:white;text-align:center}
+header{padding:22px;display:flex;justify-content:space-between;align-items:center;background:#06182d;position:sticky;top:0}
+.logo{font-size:24px;font-weight:bold;color:#38bdf8}
+nav a{color:white;text-decoration:none;margin:0 10px}
+.hero{padding:90px 20px}
+.penguin{font-size:110px;animation:float 3s infinite ease-in-out}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+h1{font-size:55px;color:#38bdf8;margin:15px 0}
+.btn{display:inline-block;margin:15px;padding:15px 28px;background:#38bdf8;color:#03111f;text-decoration:none;border-radius:14px;font-weight:bold}
+.btn2{background:transparent;color:white;border:1px solid #38bdf8}
+section{padding:60px 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;max-width:1000px;margin:auto}
+.card{background:rgba(255,255,255,.08);padding:25px;border-radius:18px;border:1px solid rgba(255,255,255,.1)}
+.card h3{color:#38bdf8}
+.roadmap{max-width:800px;margin:auto;text-align:left}
+.step{background:rgba(255,255,255,.08);padding:20px;margin:15px;border-radius:15px}
+footer{padding:35px;background:#06182d}
+</style>
 </head>
 <body>
 
-<header class="navbar">
-  <div class="logo">🐧 FreePeng</div>
+<header>
+  <div class="logo">🐧 FREEPENG</div>
   <nav>
-    <a href="#about">About</a>
     <a href="#tokenomics">Tokenomics</a>
     <a href="#roadmap">Roadmap</a>
     <a href="#faq">FAQ</a>
   </nav>
 </header>
 
-<section class="hero">
-  <div class="snow"></div>
-  <div class="hero-content">
-    <div class="mascot">🐧</div>
-    <h1>FreePeng Token</h1>
-    <p class="tagline">More Than a Meme. Built by the Community.</p>
-    <p class="desc">
-      FreePeng is a community-driven meme token inspired by freedom,
-      unity and the courage to break the chains.
-    </p>
-    <div class="buttons">
-      <a href="#" class="btn primary">Buy Coming Soon</a>
-      <a href="#about" class="btn secondary">Explore</a>
-    </div>
-  </div>
-</section>
+<div class="hero">
+  <div class="penguin">🐧</div>
+  <h1>FreePeng Token</h1>
+  <p>Freedom to Waddle. Freedom to Build.</p>
+  <p>Topluluk odaklı, eğlenceli ve özgün meme token.</p>
+  <a class="btn" href="#">Buy FPG - Coming Soon</a>
+  <a class="btn btn2" href="#tokenomics">Explore</a>
+</div>
 
-<section id="about" class="section">
-  <h2>The Story</h2>
-  <p>
-    FreePeng was born in the frozen lands, trapped by chains but never by fear.
-    One day, the little penguin broke free and carried the blue ice crystal as
-    a symbol of community, courage and freedom.
-  </p>
-</section>
-
-<section id="tokenomics" class="section">
+<section id="tokenomics">
   <h2>Tokenomics</h2>
   <div class="cards">
     <div class="card"><h3>Total Supply</h3><p>1,000,000,000 FPG</p></div>
@@ -54,30 +54,28 @@
   </div>
 </section>
 
-<section id="roadmap" class="section">
+<section id="roadmap">
   <h2>Roadmap</h2>
-  <div class="timeline">
-    <div>✅ Website Launch</div>
-    <div>🎨 Brand Kit & Mascot</div>
-    <div>🪙 Smart Contract</div>
-    <div>🧪 Testnet Deployment</div>
-    <div>🚀 Mainnet Launch</div>
+  <div class="roadmap">
+    <div class="step">✅ Phase 1: Website yayında</div>
+    <div class="step">🪙 Phase 2: Token kontratı</div>
+    <div class="step">🧪 Phase 3: Testnet denemesi</div>
+    <div class="step">🚀 Phase 4: Mainnet ve PancakeSwap</div>
   </div>
 </section>
 
-<section id="faq" class="section">
+<section id="faq">
   <h2>FAQ</h2>
   <div class="cards">
-    <div class="card"><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes first.</p></div>
-    <div class="card"><h3>Is this financial advice?</h3><p>No. FreePeng is a community project.</p></div>
-    <div class="card"><h3>Is it original?</h3><p>Yes. FreePeng is an independent fictional mascot.</p></div>
+    <div class="card"><h3>FreePeng nedir?</h3><p>Penguen temalı özgün bir meme token projesidir.</p></div>
+    <div class="card"><h3>Token çıktı mı?</h3><p>Hayır. Önce testnet yapılacak.</p></div>
+    <div class="card"><h3>Resmi bağlantı var mı?</h3><p>Hayır. FreePeng tamamen bağımsız ve özgün bir projedir.</p></div>
   </div>
 </section>
 
 <footer>
-  © 2026 FreePeng Token — Freedom to Waddle. Freedom to Build.
+  © 2026 FreePeng Token — Built by the community 🐧
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
