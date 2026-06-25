@@ -8,8 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="stars"></div>
-  <div class="aurora"></div>
+  <div class="bg-stars"></div>
 
   <header class="navbar">
     <a class="brand" href="#home">
@@ -22,21 +21,33 @@
       <a href="#whitepaper">Whitepaper</a>
       <a href="#faq">FAQ</a>
     </nav>
+    <a class="join-btn" href="#community">Join Community</a>
   </header>
 
   <main id="home" class="hero">
     <section class="hero-copy">
-      <span class="badge">BNB Smart Chain • 0% Tax • Community First</span>
-      <h1>Freedom to Waddle.<br><span>Freedom to Build.</span></h1>
-      <p>
-        FreePeng is an original penguin-themed meme token project. We build in public,
-        test before launch, and keep the community first.
-      </p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#whitepaper">Read Whitepaper</a>
-        <a class="btn secondary" href="#status">View Progress</a>
+      <div class="pill">● BNB Smart Chain • 0% Tax • Community First</div>
+      <h1>Freedom to <span>Waddle.</span><br />Freedom to Build.</h1>
+      <p>FreePeng is an original penguin-themed meme token project. We build in public, test before launch, and keep the community first.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#whitepaper">▣ Read Whitepaper</a>
+        <a class="btn secondary" href="#status">⌁ View Progress</a>
       </div>
-      <small>Contract address will be published after testnet verification.</small>
+
+      <div class="progress-card">
+        <div class="progress-top">
+          <strong>Project Progress</strong>
+          <b>50%</b>
+        </div>
+        <div class="progress-line"><span></span></div>
+        <div class="progress-steps">
+          <div><small>Website</small><em>✅</em></div>
+          <div><small>Branding</small><em>✅</em></div>
+          <div><small>Contract</small><em>✅</em></div>
+          <div><small>Testnet</small><em>⌛</em></div>
+          <div><small>Mainnet</small><em>🔒</em></div>
+        </div>
+      </div>
     </section>
 
     <section class="hero-art">
@@ -44,80 +55,71 @@
     </section>
   </main>
 
-  <section id="status" class="section status-section">
-    <p class="eyebrow">LIVE BUILD</p>
-    <h2>Project Status</h2>
-    <div class="progress-card">
-      <div class="progress-head">
-        <b>Launch Preparation</b>
-        <span>50%</span>
-      </div>
-      <div class="progress-bar"><div></div></div>
-      <div class="status-grid">
-        <div class="done">✓ Website</div>
-        <div class="done">✓ GitHub</div>
-        <div class="done">✓ Branding</div>
-        <div class="pending">⏳ Contract</div>
-        <div class="pending">⏳ Testnet</div>
-        <div class="locked">🔒 Mainnet</div>
-      </div>
-    </div>
+  <section class="quick-stats">
+    <article><span>🪙</span><b>1B</b><p>Total Supply</p></article>
+    <article><span>🔥</span><b>0%</b><p>Buy / Sell Tax</p></article>
+    <article><span>🔶</span><b>BNB</b><p>Smart Chain</p></article>
+    <article><span>🐧</span><b>FPG</b><p>Token Symbol</p></article>
   </section>
 
-  <section class="stats">
-    <article><b>1B</b><span>Total Supply</span></article>
-    <article><b>0%</b><span>Buy / Sell Tax</span></article>
-    <article><b>BNB</b><span>Smart Chain</span></article>
-    <article><b>FPG</b><span>Token Symbol</span></article>
+  <section id="status" class="section status-section">
+    <p class="section-kicker">LIVE BUILD</p>
+    <h2>Project Status</h2>
+    <div class="status-board">
+      <div class="status-info">
+        <h3>Launch Preparation</h3>
+        <p>Website, branding and contract file are prepared. Testnet deployment comes before any mainnet release.</p>
+      </div>
+      <div class="status-meter">
+        <strong>50%</strong>
+        <div class="meter"><span></span></div>
+      </div>
+    </div>
   </section>
 
   <section id="tokenomics" class="section">
-    <p class="eyebrow">FPG ECONOMY</p>
+    <p class="section-kicker">FPG ECONOMY</p>
     <h2>Tokenomics</h2>
-    <div class="cards four">
-      <article><span class="icon">🪙</span><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
-      <article><span class="icon">🌐</span><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
-      <article><span class="icon">⚡</span><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
-      <article><span class="icon">🛡️</span><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
+    <div class="cards token-cards">
+      <article><div class="icon">🪙</div><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
+      <article><div class="icon">💧</div><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
+      <article><div class="icon">⚡</div><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
+      <article><div class="icon">🛡️</div><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
     </div>
   </section>
 
-  <section id="roadmap" class="section">
-    <p class="eyebrow">BUILD PLAN</p>
+  <section id="roadmap" class="section roadmap-section">
+    <p class="section-kicker">BUILD PLAN</p>
     <h2>Roadmap</h2>
-    <div class="roadmap">
-      <article class="active"><span>1</span><h3>Brand Foundation</h3><p>Website, GitHub, logo, mascot, and project identity.</p></article>
-      <article><span>2</span><h3>Smart Contract</h3><p>OpenZeppelin ERC-20 contract, testnet deployment, and transfer tests.</p></article>
-      <article><span>3</span><h3>Mainnet Launch</h3><p>BNB Smart Chain mainnet deployment, verification, and PancakeSwap liquidity.</p></article>
-      <article><span>4</span><h3>Community Growth</h3><p>Social channels, community campaigns, listing preparation, and future utilities.</p></article>
+    <div class="roadmap-line">
+      <article class="active"><span>1</span><h3>Phase 1</h3><b>Brand Foundation</b><p>Website, GitHub, logo, mascot and project identity.</p></article>
+      <article><span>2</span><h3>Phase 2</h3><b>Smart Contract</b><p>OpenZeppelin ERC-20 contract, testnet deployment and transfer tests.</p></article>
+      <article><span>3</span><h3>Phase 3</h3><b>Mainnet Launch</b><p>BNB Smart Chain mainnet deployment, verification and PancakeSwap liquidity.</p></article>
+      <article><span>4</span><h3>Phase 4</h3><b>Community Growth</b><p>Social channels, community campaigns, listing preparation and future utilities.</p></article>
     </div>
   </section>
 
-  <section id="whitepaper" class="section whitepaper">
-    <p class="eyebrow">DOCUMENTS</p>
+  <section id="whitepaper" class="section whitepaper-section">
+    <p class="section-kicker">DOCUMENTS</p>
     <h2>Whitepaper</h2>
-    <p>The first FreePeng whitepaper explains the story, tokenomics, roadmap, risk notice, and community-first principles.</p>
+    <p>The first FreePeng whitepaper explains the story, tokenomics, roadmap, risk notice and community-first principles.</p>
     <a class="btn primary" href="whitepaper/whitepaper.pdf">Open Whitepaper</a>
   </section>
 
-  <section id="faq" class="section">
-    <p class="eyebrow">QUESTIONS</p>
+  <section id="faq" class="section faq-section">
+    <p class="section-kicker">QUESTIONS</p>
     <h2>FAQ</h2>
-    <div class="cards three">
-      <article><h3>Is FreePeng live?</h3><p>Not yet. Testnet comes before mainnet.</p></article>
-      <article><h3>Is this financial advice?</h3><p>No. FreePeng is a community project and not financial advice.</p></article>
-      <article><h3>Is the mascot original?</h3><p>Yes. FreePeng is an independent fictional penguin character.</p></article>
+    <div class="faq-list">
+      <details><summary>Is FreePeng live?</summary><p>Not yet. Testnet comes before mainnet.</p></details>
+      <details><summary>Is this financial advice?</summary><p>No. FreePeng is a community project and not financial advice.</p></details>
+      <details><summary>Is the mascot original?</summary><p>Yes. FreePeng is an independent fictional penguin character.</p></details>
     </div>
   </section>
 
-  <footer>
-    <img src="images/logo-horizontal.png" alt="FreePeng" />
-    <p>More Than a Meme. Built by the Community.</p>
-    <div class="footer-links">
-      <a href="#tokenomics">Tokenomics</a>
-      <a href="#roadmap">Roadmap</a>
-      <a href="#whitepaper">Whitepaper</a>
-    </div>
+  <footer id="community" class="footer">
+    <div><img src="images/logo-horizontal.png" alt="FreePeng" /></div>
+    <p>More Than a Meme.<br />Built by the Community.</p>
+    <div class="socials"><a href="#">Telegram</a><a href="#">X</a><a href="https://github.com/FreePengu2026/freePeng">GitHub</a></div>
   </footer>
 
   <script src="script.js"></script>
