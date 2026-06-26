@@ -303,3 +303,17 @@ footer img{height:54px}
   .quick-stats,.cards,.roadmap,.faq-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:14px;text-align:center}
 }
+.stat-logo{
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.stat-logo img{
+    width:34px;
+    height:34px;
+    object-fit:contain;
+}
