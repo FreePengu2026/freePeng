@@ -317,3 +317,23 @@ footer img{height:54px}
     height:34px;
     object-fit:contain;
 }
+.snow{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:1;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(2px 2px at 100px 80px, white, transparent),
+    radial-gradient(1px 1px at 200px 150px, white, transparent),
+    radial-gradient(2px 2px at 300px 250px, white, transparent),
+    radial-gradient(1px 1px at 420px 120px, white, transparent);
+  background-size:500px 500px;
+  animation:snowfall 14s linear infinite;
+  opacity:.45;
+}
+
+@keyframes snowfall{
+  from{background-position:0 0;}
+  to{background-position:0 500px;}
+}
