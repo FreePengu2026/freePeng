@@ -8,120 +8,128 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="bg-stars"></div>
 
-  <header class="navbar">
-    <a class="brand" href="#home">
-      <img src="images/logo-horizontal.png" alt="FreePeng Logo" />
-    </a>
-    <nav>
-      <a href="#status">Status</a>
-      <a href="#tokenomics">Tokenomics</a>
-      <a href="#roadmap">Roadmap</a>
-      <a href="#whitepaper">Whitepaper</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a class="join-btn" href="#community">Join Community</a>
-  </header>
+<header class="navbar">
+  <img src="images/logo-horizontal.png" class="nav-logo" alt="FreePeng">
 
-  <main id="home" class="hero">
-    <section class="hero-copy">
-      <div class="pill">● BNB Smart Chain • 0% Tax • Community First</div>
-      <h1>Freedom to <span>Waddle.</span><br />Freedom to Build.</h1>
-      <p>FreePeng is an original penguin-themed meme token project. We build in public, test before launch, and keep the community first.</p>
-      <div class="hero-buttons">
-        <a class="btn primary" href="#whitepaper">▣ Read Whitepaper</a>
-        <a class="btn secondary" href="#status">⌁ View Progress</a>
+  <nav>
+    <a href="#status">Status</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#whitepaper">Whitepaper</a>
+    <a href="#faq">FAQ</a>
+    <a href="#" class="join-btn">Join Community</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="badge">● BNB Smart Chain • 0% Tax • Community First</div>
+
+    <h1>
+      Freedom to<br>
+      <span>Waddle.</span><br>
+      Freedom to Build.
+    </h1>
+
+    <p>
+      FreePeng is an original penguin-themed meme token project.
+      We build in public, test before launch, and keep the community first.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#whitepaper" class="btn primary">▣ Read Whitepaper</a>
+      <a href="#status" class="btn secondary">⌁ View Progress</a>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-top">
+        <strong>Project Progress</strong>
+        <b>50%</b>
       </div>
+      <div class="progress-bar"><span></span></div>
 
-      <div class="progress-card">
-        <div class="progress-top">
-          <strong>Project Progress</strong>
-          <b>50%</b>
-        </div>
-        <div class="progress-line"><span></span></div>
-        <div class="progress-steps">
-          <div><small>Website</small><em>✅</em></div>
-          <div><small>Branding</small><em>✅</em></div>
-          <div><small>Contract</small><em>✅</em></div>
-          <div><small>Testnet</small><em>⌛</em></div>
-          <div><small>Mainnet</small><em>🔒</em></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hero-art">
-      <img src="images/hero-mascot.png" alt="FreePeng Mascot" />
-    </section>
-  </main>
-
-  <section class="quick-stats">
-    <article><span>🪙</span><b>1B</b><p>Total Supply</p></article>
-    <article><span>🔥</span><b>0%</b><p>Buy / Sell Tax</p></article>
-    <article><span>🔶</span><b>BNB</b><p>Smart Chain</p></article>
-    <article><span>🐧</span><b>FPG</b><p>Token Symbol</p></article>
-  </section>
-
-  <section id="status" class="section status-section">
-    <p class="section-kicker">LIVE BUILD</p>
-    <h2>Project Status</h2>
-    <div class="status-board">
-      <div class="status-info">
-        <h3>Launch Preparation</h3>
-        <p>Website, branding and contract file are prepared. Testnet deployment comes before any mainnet release.</p>
-      </div>
-      <div class="status-meter">
-        <strong>50%</strong>
-        <div class="meter"><span></span></div>
+      <div class="steps">
+        <div>Website<br>✅</div>
+        <div>Branding<br>✅</div>
+        <div>Contract<br>✅</div>
+        <div>Testnet<br>⌛</div>
+        <div>Mainnet<br>🔒</div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section id="tokenomics" class="section">
-    <p class="section-kicker">FPG ECONOMY</p>
-    <h2>Tokenomics</h2>
-    <div class="cards token-cards">
-      <article><div class="icon">🪙</div><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
-      <article><div class="icon">💧</div><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
-      <article><div class="icon">⚡</div><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
-      <article><div class="icon">🛡️</div><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
-    </div>
-  </section>
+  <div class="hero-right">
+    <img src="images/hero-mascot.png" alt="FreePeng Mascot">
+  </div>
+</section>
 
-  <section id="roadmap" class="section roadmap-section">
-    <p class="section-kicker">BUILD PLAN</p>
-    <h2>Roadmap</h2>
-    <div class="roadmap-line">
-      <article class="active"><span>1</span><h3>Phase 1</h3><b>Brand Foundation</b><p>Website, GitHub, logo, mascot and project identity.</p></article>
-      <article><span>2</span><h3>Phase 2</h3><b>Smart Contract</b><p>OpenZeppelin ERC-20 contract, testnet deployment and transfer tests.</p></article>
-      <article><span>3</span><h3>Phase 3</h3><b>Mainnet Launch</b><p>BNB Smart Chain mainnet deployment, verification and PancakeSwap liquidity.</p></article>
-      <article><span>4</span><h3>Phase 4</h3><b>Community Growth</b><p>Social channels, community campaigns, listing preparation and future utilities.</p></article>
-    </div>
-  </section>
+<section class="quick-stats">
+  <article><span>🪙</span><b>1B</b><p>Total Supply</p></article>
+  <article><span>🔥</span><b>0%</b><p>Buy / Sell Tax</p></article>
+  <article><span>🟡</span><b>BNB</b><p>Smart Chain</p></article>
+  <article><span>🐧</span><b>FPG</b><p>Token Symbol</p></article>
+</section>
 
-  <section id="whitepaper" class="section whitepaper-section">
-    <p class="section-kicker">DOCUMENTS</p>
-    <h2>Whitepaper</h2>
-    <p>The first FreePeng whitepaper explains the story, tokenomics, roadmap, risk notice and community-first principles.</p>
-    <a class="btn primary" href="whitepaper/whitepaper.pdf">Open Whitepaper</a>
-  </section>
+<section id="tokenomics" class="section">
+  <small>FPG ECONOMY</small>
+  <h2>Tokenomics</h2>
 
-  <section id="faq" class="section faq-section">
-    <p class="section-kicker">QUESTIONS</p>
-    <h2>FAQ</h2>
-    <div class="faq-list">
-      <details><summary>Is FreePeng live?</summary><p>Not yet. Testnet comes before mainnet.</p></details>
-      <details><summary>Is this financial advice?</summary><p>No. FreePeng is a community project and not financial advice.</p></details>
-      <details><summary>Is the mascot original?</summary><p>Yes. FreePeng is an independent fictional penguin character.</p></details>
-    </div>
-  </section>
+  <div class="cards">
+    <article><span>🪙</span><h3>Total Supply</h3><p>1,000,000,000 FPG fixed supply planned for launch.</p></article>
+    <article><span>💧</span><h3>Network</h3><p>Built for BNB Smart Chain with testnet verification first.</p></article>
+    <article><span>⚡</span><h3>Tax</h3><p>Simple 0% buy and 0% sell tax model.</p></article>
+    <article><span>🛡️</span><h3>Transparency</h3><p>Contract address and verification links will be published publicly.</p></article>
+  </div>
+</section>
 
-  <footer id="community" class="footer">
-    <div><img src="images/logo-horizontal.png" alt="FreePeng" /></div>
-    <p>More Than a Meme.<br />Built by the Community.</p>
-    <div class="socials"><a href="#">Telegram</a><a href="#">X</a><a href="https://github.com/FreePengu2026/freePeng">GitHub</a></div>
-  </footer>
+<section id="roadmap" class="section">
+  <small>BUILD PLAN</small>
+  <h2>Roadmap</h2>
 
-  <script src="script.js"></script>
+  <div class="roadmap">
+    <article><b>1</b><h3>Phase 1</h3><h4>Brand Foundation</h4><p>Website, GitHub, logo, mascot, and project identity.</p></article>
+    <article><b>2</b><h3>Phase 2</h3><h4>Smart Contract</h4><p>OpenZeppelin ERC-20 contract, testnet deployment, and transfer tests.</p></article>
+    <article><b>3</b><h3>Phase 3</h3><h4>Mainnet Launch</h4><p>BNB Smart Chain mainnet deployment, verification, and PancakeSwap liquidity.</p></article>
+    <article><b>4</b><h3>Phase 4</h3><h4>Community Growth</h4><p>Social channels, community campaigns, listings preparation, and future utilities.</p></article>
+  </div>
+</section>
+
+<section id="whitepaper" class="section whitepaper">
+  <small>DOCUMENTS</small>
+  <h2>Whitepaper</h2>
+  <p>The FreePeng whitepaper explains the story, tokenomics, roadmap, risk notice, and community-first principles.</p>
+  <a href="whitepaper/whitepaper.pdf" class="btn primary">Open Whitepaper</a>
+</section>
+
+<section id="faq" class="section">
+  <small>QUESTIONS</small>
+  <h2>FAQ</h2>
+
+  <div class="faq-grid">
+    <details>
+      <summary>Is FreePeng live?</summary>
+      <p>Not yet. Testnet comes before mainnet.</p>
+    </details>
+
+    <details>
+      <summary>Is this financial advice?</summary>
+      <p>No. FreePeng is a community project and not financial advice.</p>
+    </details>
+
+    <details>
+      <summary>Is the mascot original?</summary>
+      <p>Yes. FreePeng is an independent fictional penguin character.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <img src="images/logo-horizontal.png" alt="FreePeng">
+  <p>More Than a Meme. Built by the Community.</p>
+  <p>© 2026 FreePeng</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
